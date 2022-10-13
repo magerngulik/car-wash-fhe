@@ -1,0 +1,14 @@
+{
+    "modules": [
+        "navigator",
+        "login",
+        "order",
+        "home",
+        "profile",
+        "order_list",
+        "select_date",
+        "select_package",
+        "detail_services",
+        "welcome"
+    ]
+}

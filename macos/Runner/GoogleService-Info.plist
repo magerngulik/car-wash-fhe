@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>973273716517-qs8m090b86i0ker0jormprcddf2uhna4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.973273716517-qs8m090b86i0ker0jormprcddf2uhna4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcnZvZm1PFb7nAkZZQ8zKQlEe5kPvjCVE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>973273716517</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.blankFireSetstate</string>
+	<key>PROJECT_ID</key>
+	<string>wash-cars-fhe</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wash-cars-fhe.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:973273716517:ios:06879b7fef0510cc67accc</string>
+</dict>
+</plist>
