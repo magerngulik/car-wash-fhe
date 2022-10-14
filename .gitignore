@@ -38,11 +38,6 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
 # "JSON to Dart Model" generator tracker files locations.
 /.json_models/
 models.jsonc

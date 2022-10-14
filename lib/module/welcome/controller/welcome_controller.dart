@@ -1,9 +1,9 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fhe_template/core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import '../view/welcome_view.dart';
 
 class WelcomeController extends GetxController {
   WelcomeView? view;
@@ -34,5 +34,16 @@ class WelcomeController extends GetxController {
       //------------------
       Get.to(const ProfileView());
     } catch (_) {}
+  }
+
+  addDataSample() async {
+    var listData = [];
+    for (var i = 0; i <= 10; i++) {
+      listData.add("product $i");
+    }
+
+    await FirebaseFirestore.instance
+        .collection("products")
+        .add({"data": listData});
   }
 }
